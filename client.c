@@ -12,8 +12,6 @@
 #define MAXLINE 256
 #define WINDOW_SIZE 8
 #define TIME_OUT 100000
-
-
 // -----------------------------------------------------------------RDT 2.0 Utilities --------------------------------------------//
 int create_socket()
 {

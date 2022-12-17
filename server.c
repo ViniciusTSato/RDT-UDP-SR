@@ -937,8 +937,6 @@ void reliable_data_transfer(int sockfd, struct sockaddr_in* client_address, char
 }
 
 
-
-
 int main(int argc, char *argv[])
 {
 	int sockfd, SERVER_PORT;
@@ -963,7 +961,3 @@ int main(int argc, char *argv[])
 	close(sockfd);
 	return 0;
 }
-
-
-
-// aaaaaaaabbbbbbbbccccccccddddddddaaaaaaaabbbbbbbbccccccccddddddddaaaaaaaabbbbbbbb
